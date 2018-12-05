@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brian.Ai.WebApp", "Brian.Ai.WebApp\Brian.Ai.WebApp.csproj", "{0389D0BE-DFE4-45DC-BB9E-272D494D1DF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brian.Ai.WebApp", "Brian.Ai.WebApp\Brian.Ai.WebApp.csproj", "{4F75EE03-80E5-4758-A91C-7C3045F0575C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0389D0BE-DFE4-45DC-BB9E-272D494D1DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0389D0BE-DFE4-45DC-BB9E-272D494D1DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0389D0BE-DFE4-45DC-BB9E-272D494D1DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0389D0BE-DFE4-45DC-BB9E-272D494D1DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F75EE03-80E5-4758-A91C-7C3045F0575C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F75EE03-80E5-4758-A91C-7C3045F0575C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F75EE03-80E5-4758-A91C-7C3045F0575C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F75EE03-80E5-4758-A91C-7C3045F0575C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6934339F-8491-4A6B-AFF9-4D7EF73B3B08}
+		SolutionGuid = {CB17D52E-DF34-43DD-A9C1-9725C3F9BD96}
 	EndGlobalSection
 EndGlobal
