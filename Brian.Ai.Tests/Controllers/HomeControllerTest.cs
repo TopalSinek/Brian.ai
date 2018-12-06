@@ -19,13 +19,31 @@ namespace Brian.Ai.Tests.Controllers
             Assert.Equal("Your application Index page.", result.ViewData["Message"]);
         }
 
+        //[Fact]
+        //public void ErrorTest()
+        //{
+        //    HomeController controller = new HomeController();
+        //    ViewResult result = (ViewResult)controller.Error();
+        //    Assert.Single(result.ViewData);
+        //    Assert.Equal("We've encountered an error :(", result.ViewData["Message"]);
+        //}
+
         [Fact]
-        public void ErrorTest()
+        public void AboutTest()
         {
             HomeController controller = new HomeController();
-            ViewResult result = (ViewResult)controller.Error();
+            ViewResult result = (ViewResult)controller.About();
             Assert.Single(result.ViewData);
-            Assert.Equal("We've encountered an error :(", result.ViewData["Message"]);
+            Assert.Equal("Your application description page.", result.ViewData["Message"]);
+        }
+
+        [Fact]
+        public void ContactTest()
+        {
+            HomeController controller = new HomeController();
+            ViewResult result = (ViewResult)controller.Contact();
+            Assert.Single(result.ViewData);
+            Assert.Equal("Your contact page.", result.ViewData["Message"]);
         }
     }
 }
