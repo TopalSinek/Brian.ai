@@ -4,9 +4,12 @@ phases:
     commands:
       - pip install --upgrade awscli
       - dotnet restore Brian.Ai.WebApp/Brian.Ai.WebApp.csproj
+      - dotnet restore Brian.Ai.Tests/Brian.Ai.Tests.csproj
   build:
     commands:
       - dotnet publish -c release -o ./build_output Brian.Ai.WebApp/Brian.Ai.WebApp.csproj
+      - dotnet publish -c release -o ./test_output Brian.Ai.Tests/Brian.Ai.Tests.csproj
+      - dotnet vstest Brian.Ai.Tests/test_output/Brian.Ai.Tests.dll
 artifacts:
   files:
     - template.yml
