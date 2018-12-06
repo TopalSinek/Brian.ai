@@ -12,6 +12,7 @@ namespace Brian.Ai.WebApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = "Your application Index page.";
             return View();
         }
 
@@ -31,6 +32,7 @@ namespace Brian.Ai.WebApp.Controllers
 
         public IActionResult Error()
         {
+            ViewData["Message"] = "We've encountered an error :(";
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
